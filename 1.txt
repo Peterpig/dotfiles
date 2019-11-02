@@ -1,5 +1,5 @@
 
 ---------- V2Ray vmess URL / V2RayNG v0.4.1+ / V2RayN v2.1+ / 仅适合部分客户端 -------------
 
-[96mvmess://ewoidiI6ICIyIiwKInBzIjogIjIzM3YyLmNvbV9mcS5hbnliZmFucy54eXoiLAoiYWRkIjogImZxLmFueWJmYW5zLnh5eiIsCiJwb3J0IjogIjQ0MyIsCiJpZCI6ICIxZTMzZDVmMS03NjYxLTQ5ODctYTY0MC0wZWYyZTg2NGU1ZmMiLAoiYWlkIjogIjIzMyIsCiJuZXQiOiAid3MiLAoidHlwZSI6ICJub25lIiwKImhvc3QiOiAiZnEuYW55YmZhbnMueHl6IiwKInBhdGgiOiAiLyIsCiJ0bHMiOiAidGxzIgp9Cg==[0m
+[96mvmess://ewoidiI6ICIyIiwKInBzIjogIjIzM3YyLmNvbV9mcS5hbnliZmFucy54eXoiLAoiYWRkIjogImZxLmFueWJmYW5zLnh5eiIsCiJwb3J0IjogIjQ0MyIsCiJpZCI6ICJkM2EwZDZiZC01YTYzLTQ1YjItYjRkYS0zYzNmMjZkOGQwZWUiLAoiYWlkIjogIjIzMyIsCiJuZXQiOiAid3MiLAoidHlwZSI6ICJub25lIiwKImhvc3QiOiAiZnEuYW55YmZhbnMueHl6IiwKInBhdGgiOiAiLyIsCiJ0bHMiOiAidGxzIgp9Cg==[0m
 
