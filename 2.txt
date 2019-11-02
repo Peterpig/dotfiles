@@ -1,0 +1,12 @@
+
+---------- V2Ray 二维码链接 适用于 V2RayNG v0.4.1+ / Kitsunebi -------------
+
+[96mhttps://233boy.github.io/tools/qr.html#vmess://ewoidiI6ICIyIiwKInBzIjogIjIzM3YyLmNvbV9mcS5hbnliZmFucy54eXoiLAoiYWRkIjogImZxLmFueWJmYW5zLnh5eiIsCiJwb3J0IjogIjQ0MyIsCiJpZCI6ICJkM2EwZDZiZC01YTYzLTQ1YjItYjRkYS0zYzNmMjZkOGQwZWUiLAoiYWlkIjogIjIzMyIsCiJuZXQiOiAid3MiLAoidHlwZSI6ICJub25lIiwKImhvc3QiOiAiZnEuYW55YmZhbnMueHl6IiwKInBhdGgiOiAiLyIsCiJ0bHMiOiAidGxzIgp9Cg==[0m
+
+
+[91m 友情提醒: 请务必核对扫码结果 (V2RayNG 除外) [0m
+
+
+ V2Ray 客户端使用教程: https://233v2.com/post/4/
+
+
