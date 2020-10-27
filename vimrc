@@ -32,14 +32,13 @@ call vundle#begin()
 
 " 插件列表
 Plugin 'VundleVim/Vundle.vim'
-" Plugin 'Valloric/YouCompleteMe'
-Plugin 'Raimondi/delimitMate'
 Plugin 'kien/ctrlp.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'Vimjas/vim-python-pep8-indent'
-Plugin 'davidhalter/jedi-vim'
-" Plugin 'altercation/vim-colors-solarized'
-Plugin 'joshdick/onedark.vim'
+" Plugin 'davidhalter/jedi-vim'
+Plugin 'altercation/vim-colors-solarized'
+" Plugin 'joshdick/onedark.vim'
+Plugin 'Chiel92/vim-autoformat'
 
 call vundle#end()
 " filetype plugin indent on
@@ -59,44 +58,14 @@ if !exists('noalwayscenter')
     inoremap <CR> <CR><C-o>zz
 endif
 
-" 其他
-let g:solarized_termtrans = 1
+
+" solarized主题 安装
+" cd ~/.vim/bundle && git clone https://github.com/altercation/vim-colors-solarized.git && mv vim-colors-solarized ~/.vim/bundle/
 set magic
+syntax enable
 set background=dark
 colorscheme solarized
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%101v.\+/
-" au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe "norm '\"zz"|else|exe "norm $zz"|endif|endif
-autocmd! BufReadPost *
-            \ if line("'\"")>1 && line("'\"")<=line("$")|
-            \     execute 'normal! g`"zz'|
-            \ endif
-
-" 自动关闭函数提示框
-autocmd InsertLeave * if pumvisible() == 0|pclose|endif
-autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
-
-nnoremap `gg :YcmCompleter GoToDefinition<CR>
-
-" 全局设置
-le g:airlinte#extensions#tabline#enabled = 1
-let Grep_Skip_Dirs = '.git CVS SCCS .svn generated pyc'
-let python_highlight_all=1
-
-" YcmCompleter
-let g:ycm_path_to_python_interpreter = '/usr/bin/python'
-let g:ycm_global_ycm_extra_conf = '~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
-set completeopt=longest,menu
-highlight Pmenu ctermfg=15 ctermbg=0 guifg=#ffffff guibg=#000000
-let g:clang_snippets_engine='clang_complete'
-autocmd FileType python nnoremap <LocalLeader>= :0,$!yapf<CR>
-hi pythonSelf ctermfg=174 guifg=#6094DB cterm=bold gui=bold
-
-if (empty($TMUX))
-  if (has("nvim"))
-    let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-  endif
-  if (has("termguicolors"))
-    set termguicolors
-  endif
-endif
+let g:solarized_termcolors=256
+set t_Co=25et t_Co=256
+set term=screen-256color
+set t_ut=
