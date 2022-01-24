@@ -60,7 +60,7 @@ endif
 
 
 " solarized主题 安装
-" cd ~/.vim/bundle && git clone https://github.com/altercation/vim-colors-solarized.git && mv vim-colors-solarized ~/.vim/bundle/
+" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 set magic
 syntax enable
 set background=dark
