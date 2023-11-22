@@ -7,9 +7,7 @@ set number
 set softtabstop=4
 set tabstop=4
 set shiftwidth=4
-"set term=xterm
-"set autoindent
-set smartindent
+set autoindent
 set cindent
 set hlsearch
 set incsearch
